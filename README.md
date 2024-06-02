@@ -1,4 +1,4 @@
-# ollyio-disccord-bot
+# Ollyio the Discord bot
 Project integrates the open-source AI model Llama 3 into a Discord bot using Llama's local API.  Within an assigned home channel, the bot can chat with multiple server members, reacting and replying to each member's text.
 
 QUICK DEMONSTRATION

@@ -73,7 +73,7 @@ class Member:
     def __init__(self, name: str):
         self.name = name
         self.start_time: int = round(time.time())
-        self.max_time: int = 60 * 1  # 600 seconds (10 minutes)
+        self.max_time: int = 60 * 10  # 600 seconds (10 minutes)
         self.end_time: int = self.max_time + self.start_time
 
     def set_start_time(self) -> None:
